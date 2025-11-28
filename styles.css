@@ -273,7 +273,6 @@ html {
 
 .contato {
     display: flex;
-    width: 1920px;
     font-size: 25px;
     flex-direction: column;
     justify-content: center;
