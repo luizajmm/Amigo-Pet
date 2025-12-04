@@ -20,7 +20,7 @@ html {
 }
 
 .hero {
-    background-image: url(./images/banner2.png);
+    background-image: url(./images/banner.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -111,8 +111,16 @@ html {
 
 .animais-adocao h1 {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
 }
+
+.texto-adocao {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 10px;
+    color: #E86E04;
+}
+
 
 
 .section-cards {
@@ -152,7 +160,7 @@ html {
 }
 
 .card p {
-    text-align: center;
+    text-align: center; 
 }
 
 .descricao-animal {
@@ -161,6 +169,7 @@ html {
     font-size: 15px;
     font-weight: 275;
     max-width: 349px;
+    margin-top: 5px;
 }
 
 .button-card {
@@ -206,6 +215,7 @@ html {
 .localizacao p {
     margin-top: 5px;
     color: #555;
+    font-size: 19px;
 }
 
 .localizacao-container {
@@ -232,6 +242,8 @@ html {
 .endereco h3 {
     padding: 0px;
     color: #000;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-family: Poppins;
     font-size: 36px;
@@ -239,12 +251,14 @@ html {
     font-weight: 800;
     line-height: normal;
     letter-spacing: -0.72px;
+    display: flex;
+    gap: 17px;
 
 }
 
 .icone {
-    width: 30px;
-
+    width: 45px;
+    
 }
 
 .endereco p {
@@ -322,7 +336,7 @@ html {
     margin-inline: auto;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 20px;
 }
 
 .faq-item {
@@ -338,7 +352,7 @@ html {
 .faq-item p {
     color: #000;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
